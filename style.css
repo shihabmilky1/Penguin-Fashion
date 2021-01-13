@@ -1,3 +1,4 @@
+/*START COMMON CSS */
 h1,h2,h3,h4,h5,h6{
     font-family: 'Bebas Neue', cursive;
     color: #3e3e3e;
@@ -6,19 +7,11 @@ p, a{
     font-family: 'Roboto', sans-serif;
     color: #3e3e3e;
 }
-h1{
-    font-size: 80px;
-    /* color: #e24f11; */
-    /* color: #fa804c; */
-    color: #fabe4c;
-}
 .custom-cart-icon {
     font-size: 14px;
     margin-right: 5px;
 }
-.highlight{
- color: #3e3e3e;
-}
+
 .custom-btn {
     background: none;
     color: #000;
@@ -41,6 +34,18 @@ button.btn.btn-primary.custom-btn:active {
     background: #000;
     border:1px solid black;
 }
+/*END COMMON CSS */
+
+/*START HEADER CSS */
+h1{
+    font-size: 80px;
+    /* color: #e24f11; */
+    /* color: #fa804c; */
+    color: #fabe4c;
+}
+.highlight{
+    color: #3e3e3e;
+   }
 header{
     background: #FFF9F4;
 
@@ -51,11 +56,12 @@ a.navbar-brand img {
 .header-img {
     width: 410px;
 }
+/* END HEADER CSS */
+
+/* START CASUAL SHOES & FORMAL  SHOES CSS */
 .section-title{
     font-size: 48px;
 }
-
-
 .custom-card {
     border: none;
     border-radius: 20px;
@@ -70,7 +76,9 @@ a.navbar-brand img {
 .custom-img {
     height: 315px;
 }
+/* END CASUAL SHOES & FORMAL  SHOES CSS */
 
+/* START ABOUT CSS*/
 section.py-5.about .custom-col img {
     width: 82px;
     height: 78px;
@@ -79,3 +87,4 @@ section.py-5.about .custom-col img {
 .custom-icon-box{
     border-radius: 20px;
 }
+/* END ABOUT CSS */
