@@ -1,0 +1,81 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', cursive;
+    color: #3e3e3e;
+}
+p, a{
+    font-family: 'Roboto', sans-serif;
+    color: #3e3e3e;
+}
+h1{
+    font-size: 80px;
+    /* color: #e24f11; */
+    /* color: #fa804c; */
+    color: #fabe4c;
+}
+.custom-cart-icon {
+    font-size: 14px;
+    margin-right: 5px;
+}
+.highlight{
+ color: #3e3e3e;
+}
+.custom-btn {
+    background: none;
+    color: #000;
+    border: 1px solid black;
+    padding: 10px 25px;
+}
+.custom-btn:hover {
+    background: black;
+    border: 1px solid black;
+}
+button.btn.btn-primary.custom-btn:focus {
+    border: 1px solid black;
+    outline: none;
+    background: black;
+    box-shadow: none;
+}
+
+button.btn.btn-primary.custom-btn:active {
+    outline: none;
+    background: #000;
+    border:1px solid black;
+}
+header{
+    background: #FFF9F4;
+
+}
+a.navbar-brand img {
+    width: 270px;
+}
+.header-img {
+    width: 410px;
+}
+.section-title{
+    font-size: 48px;
+}
+
+
+.custom-card {
+    border: none;
+    border-radius: 20px;
+}
+.custom-card img{
+    border-radius: 20px;
+}
+.custom-card-footer{
+    background: white;
+    border: none;
+}
+.custom-img {
+    height: 315px;
+}
+
+section.py-5.about .custom-col img {
+    width: 82px;
+    height: 78px;
+}
+
+.custom-icon-box{
+    border-radius: 20px;
+}
