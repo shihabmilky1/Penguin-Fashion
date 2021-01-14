@@ -122,7 +122,14 @@ section.py-5.about .custom-col img {
     border:1px solid #fff;
     color: black;
 }
-
+/* START CONTACT */
 .contact-card{
     border: none;
+}
+/* END CONTACT */
+
+/* START FOOTER */
+footer p{
+font-size: 12px;
+color: #3e3e3e;
 }
