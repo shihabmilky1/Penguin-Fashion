@@ -90,3 +90,39 @@ section.py-5.about .custom-col img {
     border-radius: 20px;
 }
 /* END ABOUT CSS */
+
+/* START NEWSLETTER CSS */
+
+.newsletter{
+    background-color: rgba(0, 0, 0, 0.76);
+}
+.newsletter-btn{
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    border-radius: 0;
+}
+.newsletter-btn:hover {
+    background: #fff;
+    border: 1px solid #fff;
+    color: black;
+}
+.newsletter-btn:focus {
+    border: 1px solid #fff;
+    outline: none;
+    background: #fff;
+    box-shadow: none;
+    color: black;
+}
+
+.newsletter-btn:active {
+    outline: none;
+    background: #fff;
+    border:1px solid #fff;
+    color: black;
+}
+
+.contact-card{
+    border: none;
+}
